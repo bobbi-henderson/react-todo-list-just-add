@@ -1,8 +1,13 @@
+//imports the usestate hook from the react module
 import { useState } from 'react'
+//imports the header component from the header file
 import Header from "./components/Header";
+//imports the list component from the list file
 import List from "./components/List"
+//imports the addtodo component from the addtodo file
 import AddTodo from "./components/AddTodo"
 
+//declares the app function
 function App() {
 
   const [todos, setTodos] = useState([
